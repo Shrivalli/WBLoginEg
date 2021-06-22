@@ -22,6 +22,11 @@ namespace LoginEg.Controllers
             }
         }
 
+        public IActionResult Sample()
+        {
+            return View();
+        }
+
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
